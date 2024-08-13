@@ -1,0 +1,115 @@
+.bodyy, .contededor-login {
+    background-image: url('../IMG/Ferreteria.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.bodyy::before, .contededor-login {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.bodyy > * , .contededor-login > *{
+    position: relative;
+    z-index: 2;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ajusta el ancho al 100% del contenedor Grid */
+    max-width: 400px; /* Establece un ancho máximo para evitar que se estire demasiado */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el ancho total del elemento */
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form h2, .login-form h3 {
+    text-align: center;
+}
+
+.login-form h2 {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.login-form h3 {
+    margin: 10px;
+    font-family: "Lato", sans-serif;
+    color: #9096B2;
+    font-size: 2vh;
+}
+
+.form-group {
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    font-family: "Lato", sans-serif;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.captcha-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.login-button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FB2E86;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #e20062;
+}
+
+.login-form a {
+    color: #9096B2;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+#googleSignInButton {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+  }

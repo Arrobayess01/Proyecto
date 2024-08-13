@@ -1,0 +1,54 @@
+
+  /* Estilos para el modal */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+  
+  .modal-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .modal-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+  }
+  
+  .modal-button:hover {
+    opacity: 0.9;
+  }
+  
+  .modal-cancel-button {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .modal-cancel-button:hover {
+    background-color: #5a6268;
+  }
+  

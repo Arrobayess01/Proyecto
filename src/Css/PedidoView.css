@@ -1,0 +1,88 @@
+.fshop-pedido-detalles {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.fshop-pedido-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fshop-pedido-mesa {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fshop-pedido-estado {
+    font-size: 16px;
+    color: #4caf50; /* Verde para estado pagado */
+}
+
+.fshop-pedido-info {
+    margin: 20px 0;
+}
+
+.fshop-pedido-total,
+.fshop-pedido-id {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.fshop-pedido-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.fshop-pedido-item-card {
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+
+.fshop-pedido-item-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.fshop-pedido-item-details {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.fshop-pedido-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fshop-pedido-back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+}
+
+.fshop-pedido-back-button:hover {
+    background-color: #bd226f;
+}

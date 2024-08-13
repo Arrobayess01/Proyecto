@@ -1,0 +1,157 @@
+/* Contenedor principal del formulario */
+.ap-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  width: 600px; /* Ajustar el ancho para que sea más estrecho */
+  margin: 50px auto;
+}
+
+/* Título del formulario */
+.ap-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* Subtítulo del formulario */
+.ap-subtitle {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #777;
+  text-align: center;
+}
+
+/* Mensaje de error */
+.ap-error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Estilos para las etiquetas y los inputs */
+.ap-label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+  width: 100%;
+  text-align: left;
+}
+
+.ap-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #333;
+  width: 100%;
+  box-sizing: border-box; /* Asegura que el padding no expanda el input */
+}
+
+.ap-textarea {
+  height: 80px;
+  resize: none; /* Desactiva el redimensionamiento */
+}
+
+.ap-input-file {
+  display: none; /* Ocultar input de archivo original */
+}
+
+.ap-file-upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 2px dashed #ccc;
+  background: #fafafa;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #666;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.ap-file-upload:hover {
+  border-color: #007bff;
+}
+
+/* Estilos para los botones */
+.ap-button {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px; /* Añadir margen superior a los botones */
+}
+
+.ap-submit-button {
+  background-color: #28a745;
+  color: white;
+  margin-right: 10px;
+}
+
+.ap-submit-button:hover {
+  background-color: #218838;
+}
+
+.ap-cancel-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.ap-cancel-button:hover {
+  background-color: #c82333;
+}
+
+/* Contenedores para los diferentes grupos de campos */
+.ap-group {
+  display: grid;
+  gap: 20px;
+  width: 100%;
+  justify-items: center;
+}
+
+.ap-group-1 {
+  grid-template-columns: 2fr;
+}
+
+.ap-group-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.ap-group-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.ap-item {
+  width: 100%;
+}
+
+/* Estilos para la previsualización de imágenes */
+.ap-image-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.ap-image-preview img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
